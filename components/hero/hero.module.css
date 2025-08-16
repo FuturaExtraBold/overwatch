@@ -1,0 +1,21 @@
+.hero {
+  border: 2px solid #ffffff;
+  padding: 8px;
+  text-align: center;
+  background-color: #cccccc;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+  transform: scale(1);
+}
+
+.hero:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.25);
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  margin: 12px 0;
+}
