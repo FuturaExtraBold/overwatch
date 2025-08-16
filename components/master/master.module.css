@@ -1,14 +1,10 @@
-:root {
-  --background: #f9f9f9;
-}
-
 .master {
   width: 1596px;
   height: 990px;
   display: grid;
   grid-template-columns: 1064px 532px;
   gap: 0 24px;
-  background-color: var(--background);
+  background-color: #f9f9f9;
 }
 
 .master__left {
