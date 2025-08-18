@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./master.module.css";
 import HeroGrid from "../heroGrid/HeroGrid";
 import { useAppContext } from "@/context/AppContext";
+import GridNew from "../gridNew/GridNew";
 
 export default function Master() {
   const { currentHero } = useAppContext();
@@ -11,7 +12,8 @@ export default function Master() {
   return (
     <div className={styles.master}>
       <div className={styles.master__left}>
-        <HeroGrid />
+        {/* <HeroGrid /> */}
+        <GridNew />
       </div>
       <div className={styles.master__right}>
         <div className={styles.master__detail}>

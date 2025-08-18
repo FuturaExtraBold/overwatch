@@ -1,0 +1,16 @@
+/* latin */
+@font-face {
+  font-family: "Big Noodle Too";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/big-noodle-too-oblique.woff") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "Big Noodle Too", "Helvetica Neue", sans-serif;
+  -webkit-text-rendering: optimizeSpeed;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

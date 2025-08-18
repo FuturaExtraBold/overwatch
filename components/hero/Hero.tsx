@@ -15,6 +15,7 @@ export default function Hero(props: HeroProps) {
 
   return (
     <div className={styles.hero} onMouseEnter={() => setCurrentHeroById(id)}>
+      <img className={styles.avatar} src={`/avatars/${id}.png`} alt={name} />
       <h2 className={styles.name}>{name}</h2>
     </div>
   );
