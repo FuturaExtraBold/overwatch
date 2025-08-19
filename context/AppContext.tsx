@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, ReactNode } from "react";
-import { heroes } from "@/data/heroes";
+import { heroes } from "@/data/heroes_old";
 
 export type Hero = (typeof heroes)[number];
 

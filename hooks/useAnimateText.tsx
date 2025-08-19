@@ -11,7 +11,7 @@ export default function useAnimateText(ref: React.RefObject<HTMLElement>) {
     if (!ref.current) return;
     const split = new SplitText(ref.current, { type: "chars" });
     gsap.set(ref.current, {
-      display: "block",
+      visibility: "visible",
     });
     gsap.fromTo(
       split.chars,

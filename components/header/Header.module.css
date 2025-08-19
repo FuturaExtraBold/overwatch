@@ -1,11 +1,14 @@
 .header {
   width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 60px;
 }
 
 .title {
   font-size: 216px;
   color: #ffffff;
-  display: none;
+  visibility: hidden;
 }
 
 .title > * {

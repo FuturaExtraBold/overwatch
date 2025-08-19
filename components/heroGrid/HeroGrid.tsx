@@ -2,7 +2,7 @@
 
 import React from "react";
 import styles from "./heroGrid.module.css";
-import { heroes } from "@/data/heroes";
+import { heroes } from "@/data/heroes_old";
 import Hero from "../hero/Hero";
 
 export default function HeroGrid() {
