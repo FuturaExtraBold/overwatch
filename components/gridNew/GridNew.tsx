@@ -12,6 +12,11 @@ export default function GridNew() {
           .filter((hero) => hero.role === "tank")
           .map((hero: Hero) => (
             <div className={styles.item} key={hero.id}>
+              <img
+                className={styles.avatar}
+                src={`/avatars/${hero.id}.png`}
+                alt={hero.displayName}
+              />
               {hero.displayName}
             </div>
           ))}
@@ -21,6 +26,11 @@ export default function GridNew() {
           .filter((hero) => hero.role === "damage")
           .map((hero: Hero) => (
             <div className={styles.item} key={hero.id}>
+              <img
+                className={styles.avatar}
+                src={`/avatars/${hero.id}.png`}
+                alt={hero.displayName}
+              />
               {hero.displayName}
             </div>
           ))}
@@ -30,6 +40,11 @@ export default function GridNew() {
           .filter((hero) => hero.role === "support")
           .map((hero: Hero) => (
             <div className={styles.item} key={hero.id}>
+              <img
+                className={styles.avatar}
+                src={`/avatars/${hero.id}.png`}
+                alt={hero.displayName}
+              />
               {hero.displayName}
             </div>
           ))}
