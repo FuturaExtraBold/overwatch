@@ -4,16 +4,13 @@
   justify-content: center;
   min-height: 100vh;
   background-color: #eee;
-  width: 2080px;
-  height: 1170px;
-  margin: 0 auto;
 }
 
 .main {
-  width: 1920px;
-  height: 1080px;
+  max-width: 1920px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   background-color: #ccc;
-  /* margin: 0 auto; */
   position: relative;
   display: flex;
   flex-direction: column;

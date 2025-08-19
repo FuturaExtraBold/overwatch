@@ -14,7 +14,7 @@ export default function GridNew() {
             <div className={styles.item} key={hero.id}>
               <img
                 className={styles.avatar}
-                src={`/avatars/${hero.id}.png`}
+                src={`/avatars/${hero.id}.webp`}
                 alt={hero.displayName}
               />
               {hero.displayName}
@@ -28,7 +28,7 @@ export default function GridNew() {
             <div className={styles.item} key={hero.id}>
               <img
                 className={styles.avatar}
-                src={`/avatars/${hero.id}.png`}
+                src={`/avatars/${hero.id}.webp`}
                 alt={hero.displayName}
               />
               {hero.displayName}
@@ -42,7 +42,7 @@ export default function GridNew() {
             <div className={styles.item} key={hero.id}>
               <img
                 className={styles.avatar}
-                src={`/avatars/${hero.id}.png`}
+                src={`/avatars/${hero.id}.webp`}
                 alt={hero.displayName}
               />
               {hero.displayName}
