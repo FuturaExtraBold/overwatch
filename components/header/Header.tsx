@@ -5,14 +5,14 @@ import styles from "./Header.module.css";
 import useAnimateText from "@/hooks/useAnimateText";
 
 export default function Header() {
-  const titleRef = useRef<HTMLElement>(null!);
+  const titleRef = useRef<HTMLHeadingElement>(null!);
   useAnimateText(titleRef);
 
   return (
     <section className={styles.header}>
-      <span ref={titleRef} className={styles.title}>
+      <h1 ref={titleRef} className={styles.title}>
         Heroes
-      </span>
+      </h1>
     </section>
   );
 }

@@ -1,0 +1,27 @@
+$item-size: 110px;
+$grid-gap: 10px;
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $grid-gap;
+  height: max-content;
+}
+
+.gridFour {
+  grid-template-columns: repeat(4, 1fr);
+  width: calc($item-size * 4 + $grid-gap * 3);
+}
+
+.gridFive {
+  grid-template-columns: repeat(5, 1fr);
+  width: calc($item-size * 5 + $grid-gap * 4);
+}
+
+.gridEnd {
+  justify-content: flex-end;
+}
+
+.gridCenter {
+  justify-content: center;
+}

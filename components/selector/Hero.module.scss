@@ -1,0 +1,40 @@
+$item-size: 110px;
+
+.hero {
+  width: $item-size;
+  height: calc($item-size * 4 / 3);
+  cursor: pointer;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 6px;
+  transition: all 0.1s ease-out;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(#999, 1) 0%, rgba(#fff, 1) 100%);
+}
+
+.hero:hover {
+  background-color: #ddd;
+  transform: scale(1.5);
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.accent {
+  width: 100%;
+  height: 3px;
+  background-color: #999;
+}
+
+.avatar {
+  width: $item-size;
+  height: $item-size;
+  // border-radius: 50%;
+  object-fit: cover;
+  background-color: lightsteelblue;
+}
