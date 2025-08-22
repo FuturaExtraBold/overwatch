@@ -11,7 +11,7 @@ export const Hero = (hero: HeroType) => {
         alt={hero.displayName}
       />
       <div className={styles.name}>{hero.displayName}</div>
-      <div className={styles.accent} />
+      <div className={styles.accent} style={{ backgroundColor: hero.accent }} />
     </div>
   );
 };
