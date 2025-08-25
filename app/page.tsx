@@ -9,7 +9,7 @@ export default function Home() {
       <main className={styles.main}>
         <img
           className={styles.background}
-          src="/images/backgrounds/background_final.webp"
+          src="/assets/images/backgrounds/background_final.webp"
           alt="Selector Background"
         />
         <Header />

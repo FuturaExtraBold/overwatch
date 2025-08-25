@@ -1,5 +1,5 @@
 import React from "react";
-import { heroes } from "@/data/heroes";
+import { heroes } from "@/lib/data/heroes";
 import { Hero } from "./Hero";
 import styles from "./Grid.module.scss";
 

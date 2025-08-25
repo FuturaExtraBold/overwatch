@@ -25,10 +25,12 @@ $item-size: 110px;
   align-items: center;
   flex: 1;
 }
+
 .accent {
   width: 100%;
-  height: 3px;
+  height: 4px;
   background-color: #999;
+  filter: contrast(2) brightness(0.8);
 }
 
 .avatar {

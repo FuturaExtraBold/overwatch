@@ -3,7 +3,7 @@
   font-family: "Big Noodle Too";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/big-noodle-too-oblique.woff") format("woff2");
+  src: url("/assets/fonts/big-noodle-too-oblique.woff") format("woff2");
   font-display: swap;
 }
 

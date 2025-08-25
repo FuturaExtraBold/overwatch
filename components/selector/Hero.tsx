@@ -7,7 +7,7 @@ export const Hero = (hero: HeroType) => {
     <div className={styles.hero} key={hero.id}>
       <img
         className={styles.avatar}
-        src={`/images/avatars/${hero.id}.webp`}
+        src={`/assets/images/avatars/${hero.id}.webp`}
         alt={hero.displayName}
       />
       <div className={styles.name}>{hero.displayName}</div>
